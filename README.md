@@ -13,6 +13,15 @@ pnpm dev
 # or
 bun dev
 ```
+```bash
+AUTH_SECRET=your_auth_secret_value
+AUTH_GITHUB_ID=your_github_id
+AUTH_GITHUB_SECRET=your_github_secret
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_sanity_project_id
+NEXT_PUBLIC_SANITY_DATASET=your_sanity_dataset
+NEXT_PUBLIC_SANITY_API_VERSION=your_sanity_api_version
+SANITY_WRITE_TOKEN=your_sanity_write_token
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -28,15 +37,7 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-```bash
-AUTH_SECRET=your_auth_secret_value
-AUTH_GITHUB_ID=your_github_id
-AUTH_GITHUB_SECRET=your_github_secret
-NEXT_PUBLIC_SANITY_PROJECT_ID=your_sanity_project_id
-NEXT_PUBLIC_SANITY_DATASET=your_sanity_dataset
-NEXT_PUBLIC_SANITY_API_VERSION=your_sanity_api_version
-SANITY_WRITE_TOKEN=your_sanity_write_token
-```
+
 
 ## Deploy on Vercel
 
